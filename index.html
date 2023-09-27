@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Draw a sketch</h1>
+    </header>
+    <main class="main">
+      <div class="settings">
+        <input id="colorPicker" style="background-color: #e1e1e1;" type="color" value=#000000 />
+        <button id="colorBtn" class = "btn">Color mode</button>
+        <button id="rainbowBtn" class = "btn">Rainbow mode</button>
+        <button id="eraserBtn" class = "btn">Eraser</button>
+        <button id="clearBtn">Clear</button>
+      </div>
+      <div id="grid" class="grid" style="grid-template-columns: repeat(60, 1fr); grid-template-rows: repeat(60, 1fr);">
+  </div>        
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
