@@ -38,13 +38,13 @@ const randomB = Math.floor(Math.random() * 256);
 
 function ChangeButtonColor(val)
 {
-    let btn = document.querySelectorAll('.btn');
+    let btn = document.querySelectorAll('.controlBtn');
 
         btn.forEach((item)=>{
             if(item.id==val)
             item.setAttribute("style","background-color: black; color: white");
             else
-            item.setAttribute("style","background-color: #ededed; color: black");
+            item.setAttribute("style","background-color: #E9F1FA; color: black");
             
         })
 }
